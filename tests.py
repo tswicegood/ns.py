@@ -1,7 +1,7 @@
 import os
 import sys
 sys.path.insert(0, os.path.dirname(__file__))
-sys.path[0:0] = [os.path.join(os.path.dirname(__file__), a) \
+sys.path[0:0] = [os.path.join(os.path.dirname(__file__), "support", a) \
         for a in ["a", "b", "y", "z"]]
 
 import unittest
